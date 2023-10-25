@@ -1,6 +1,6 @@
 {
   "name": "my-game",
-  "homepage": "https://dev-bhoomi.github.io",
+  "homepage": "https://dev-bhoomi.github.io/Game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
